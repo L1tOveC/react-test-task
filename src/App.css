@@ -1,0 +1,13 @@
+.availableVariables {
+    width: 500px;
+    height: 250px;
+    overflow-y: auto;
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 16px
+}
+
+.variablesBlock {
+    cursor: pointer;
+    margin: 4px 0
+}

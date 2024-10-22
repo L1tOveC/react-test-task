@@ -1,0 +1,30 @@
+.weather-table-container {
+    overflow-x: auto;
+}
+
+.weather-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.weather-table th,
+.weather-table td {
+    min-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid rgba(182, 115, 14, 0.61);
+    padding: 8px;
+}
+
+.weather-table th {
+    background-color: rgba(58, 129, 28, 0.57);
+    font-weight: bold;
+}
+
+.weather-table td {
+    word-wrap: break-word;
+    white-space: normal;
+}
